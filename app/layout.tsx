@@ -37,9 +37,13 @@ export default function RootLayout({
               <SignInButton/>
             </SignedOut>
             */}
+
+            {/* allows user to view profile info*/}
+            {/*
             <SignedIn>
               <UserButton/>
             </SignedIn>
+            */}
           </header>
           <main>
             {children}
